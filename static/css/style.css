@@ -16,31 +16,38 @@ font-family: 'Heebo', sans-serif; */
   --lightBg: #d6b4fc; /*certificate section colour #ffffff*/
 }
 
-codersrank-work-experience {
-  --item-border: 1px solid;
-  --item-padding: 20px;
+
+
+/*experience section code */
+.exp h3{
+  padding: 20px;
 }
-codersrank-education {
-  --grid-columns: 3;
-  --item-border-radius: 1px solid;
+codersrank-work-experience {
+  --item-border: 1px solid #9c07b6;
   --item-padding: 20px;
 
 }
-/*
-codersrank-work-experience {
-  --grid-columns: 1;
-  }
- */ 
+/*experience section code end*/
+
+/* Coders-rank eduction section start */ 
+codersrank-education {
+  --item-border: 1px solid #9c07b6;
+  --item-padding: 20px;
+
+}
 .edu h3{
   text-align: left;
   padding-top: 30px;
 }
 
+/* Coders-rank eduction section end */ 
+
+
 
 /* TIMELINE CODE START */
 .timeline h3{
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
 }
 .timeline{
   background-color: #d6b4fc;
@@ -55,9 +62,20 @@ codersrank-timeline{
   --year-opacity:	1;
 
   --timeline-item-bg-color: #bc85fa ;
+
+  
+}
+.comment{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
 }
 
+.timeline p{
+  text-align: center;
+}
 /* TIMELINE CODE END */
+
+
 
 hr.rounded{
   border-top: 1px solid;
@@ -424,10 +442,9 @@ a, .btn {
 }
 .cardStyle1 {
 	padding: 25px;
-	background-color: #a1a6c3;
 	border-radius: 4px;
   border: 2px solid;
-  border-color: #292d41 ;
+  border-color: #9C07B6 ;
   height: 100%;
 }
 .cardStyle1 > p:last-child {

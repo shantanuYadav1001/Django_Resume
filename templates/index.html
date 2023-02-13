@@ -31,6 +31,8 @@ END script blocks
 Start Content
 ================================= -->
 {% block content %}
+
+<!-- Banner section START -->
 <section>
   <div class="bannerSection">
     <div class="container">
@@ -60,7 +62,10 @@ Start Content
     </div>
   </div>
 </section>
+<!-- Banner section END -->
 
+
+<!-- skills section START -->
 <section>
   <div class="sectionSpace pt-0">
     <div class="container">
@@ -111,7 +116,7 @@ Start Content
   </div>
   <hr class="rounded">
 </section>
-
+<!--coding skills section END-->
 
 <!--timeline code coders rank start-->
 <section>
@@ -120,7 +125,8 @@ Start Content
       <div class="row pb-3">
         <div class="col">
           <div class = "timeline">
-            <h3 class="smTitle pb-3">Work and Portfolio Timeline</h3>
+            <h3 class="smTitle ">Work and Portfolio Timeline</h3>
+            <p class="comment">(click any skill to see decription)</p>
             <codersrank-timeline type="technologies" branding = "false" username="shantanuyadav1001"></codersrank-timeline>
           </div>
         </div>
@@ -130,33 +136,6 @@ Start Content
   <hr class="rounded">
 </section>
 <!--timeline section end-->
-
-
-<!--Education section start-->
-<section>
-  <div class= "education">
-    <div class="container">
-      <div class="row pb-3">
-        <div class="col">
-          
-          <div class="edu">
-            <h3 class="smTitle pb-3">Education</h3>
-            <codersrank-education
-            username="shantanuyadav1001" 
-            grid="true" 
-            branding = "false" 
-            certificates = "false"
-            ></codersrank-education>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <hr class="rounded">
-</section>
-<!--Education section end-->
 
 <!--Workexp section start-->
 <section>
@@ -180,6 +159,9 @@ Start Content
   <hr class="rounded">
 </section>
 <!--Workexp section end-->
+
+
+<!--Certificate section start-->
 <section>
   <div class="sectionSpaceSm lightBg">
     <div class="container">
@@ -218,8 +200,40 @@ Start Content
   </div>
   <hr class="rounded">
 </section>
+<!--Certificate section End-->
 
 
+<!--Education section start-->
+<section>
+  <div class= "education">
+    <div class="container">
+      <div class="row pb-3">
+        <div class="col">
+          
+          <div class="edu">
+            <h3 class="smTitle pb-3">Education</h3>
+            <codersrank-education
+            username="shantanuyadav1001" 
+            grid="false" 
+            branding = "false" 
+            certificates = "false"
+            ></codersrank-education>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="rounded">
+</section>
+<!--Education section end-->
+
+
+
+
+
+<!--Portfolio/ feature work & testimonials section start-->
 <section>
   <div class="sectionSpace">
     <div class="container">
@@ -297,7 +311,9 @@ Start Content
   </div>
   <hr class="rounded">
 </section>
+<!--Portfolio / feature work & testimonials section END-->
 
+<!--Recent posts section start-->
 <section>
   <div class="sectionSpaceSm lightBg">
     <div class="container">
@@ -329,6 +345,8 @@ Start Content
     </div>
   </div>
 </section>
+<!--Recent posts section END-->
+
 {% endblock %}
 <!-- ================================
 End Content
